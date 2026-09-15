@@ -132,7 +132,7 @@ a {
 
     .tekst {
         font-size: 18px;
-        margin-left: 0;
+        margin: -2% 0 6% 0;
         max-width: 80%;
         text-align: center;
     }
