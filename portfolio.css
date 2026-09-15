@@ -44,17 +44,21 @@ table {border-collapse: collapse; border-spacing: 0;
     margin-bottom: 2%;
 }
 
+.koptekst {
+    position: fixed;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 12.1vw;
+    color: #ff0303;
+    margin-top: -3%;
+    margin-left: 2.5%;
+    z-index: 1;
+}
+
 .main {
     display: flex;
     flex-direction: column;
     width: 100%;
-}
-
-.koptekst {
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 14px;
-    color: #ffb300;
-    margin-left: 3%;
+    margin-top: 10%;
 }
 
 .wrapper {
@@ -77,19 +81,23 @@ table {border-collapse: collapse; border-spacing: 0;
 }
 
 .image {
+    position: relative;
     max-width: 50vw;
     height: auto;
     margin-left: 6%;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
+    z-index: 2;
 }
 
 a {
     opacity: 1;
     transition: opacity 0.3s ease;
+    z-index: 2;
   }
   
   a:hover {
     opacity: 0.7;
+    z-index: 2;
   }
 
 .footer {
@@ -109,9 +117,12 @@ a {
     }
 
     .koptekst {
-        width: 10%;
-        margin: auto;
-        margin-bottom: 2%;
+        position: relative;
+        text-align: center;
+    }
+
+    .main {
+        margin-top: -13%;
     }
 
     .wrapper {
@@ -137,11 +148,6 @@ a {
     .logo {
         width: 80vw;
         margin-left: 10%;
-    }
-
-    .koptekst {
-        width: 100%;
-        text-align: center;
     }
 
     .tekst {
