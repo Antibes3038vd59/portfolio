@@ -1,0 +1,171 @@
+/* CSS Reset */
+* {margin: 0; padding: 0; box-sizing: border-box;
+}
+html, body {height: 100%;font-size: 16px; line-height: 1.5; color: #333; background-color: #fff;
+}
+body {font-family: Arial, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+}
+h1, h2, h3, h4, h5, h6 {font-weight: normal; margin-bottom: 0.5em;
+}
+p {margin-bottom: 1em;
+}
+a {color: #0066cc; text-decoration: none;
+}
+a:hover {text-decoration: underline;
+}
+ul, ol {list-style: none;
+}
+img {max-width: 100%; height: auto;display: block;
+}
+button {cursor: pointer; background: none; border: none; font-size: inherit;
+}
+input, textarea, select {font-size: inherit; font-family: inherit;
+}
+/* Optioneel: Reset voor form-elementen */
+form {margin: 0; padding: 0;
+}
+/* Optioneel: Reset voor tabellen */
+table {border-collapse: collapse; border-spacing: 0;
+}
+
+
+
+/* CSS portfolio-page */
+
+.body {
+    height: auto;
+    margin: 0;
+    background-color: #037a11;
+}
+
+.logo {
+    width: 60vw;
+    margin: auto;
+    margin-bottom: 2%;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.koptekst {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 14px;
+    color: #ffb300;
+    margin-left: 3%;
+}
+
+.wrapper {
+    display: flex;
+}
+
+.tekst {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    line-height: 32px;
+    margin-left: 5%;
+    font-weight: 800;
+    max-width: 40%;
+    color: #ffb300;
+}
+
+.tekst span {
+    font-size: 40px;
+    vertical-align: top;
+}
+
+.image {
+    max-width: 50vw;
+    height: auto;
+    margin-left: 6%;
+    margin-bottom: 20px;
+}
+
+a {
+    opacity: 1;
+    transition: opacity 0.3s ease;
+  }
+  
+  a:hover {
+    opacity: 0.7;
+  }
+
+.footer {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #ffb300;
+    margin-left: 3%;
+    margin-top: 5%;
+}
+
+/* Media Queries voor responsiviteit */
+
+/* Tablet (schermbreedte tussen 768px en 1024px) */
+@media screen and (max-width: 1024px) {
+    .logo {
+        width: 70vw;
+        margin: auto;
+    }
+
+    .koptekst {
+        width: 10%;
+        margin: auto;
+        margin-bottom: 2%;
+    }
+
+    .wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .tekst {
+        font-size: 18px;
+        margin-left: 0;
+        max-width: 80%;
+        text-align: center;
+    }
+
+    .image {
+        max-width: 80vw;
+        margin-left: 0;
+    }
+}
+
+/* Mobiel (schermbreedte kleiner dan 768px) */
+@media screen and (max-width: 768px) {
+    .logo {
+        width: 80vw;
+        margin-left: 10%;
+    }
+
+    .koptekst {
+        width: 100%;
+        text-align: center;
+    }
+
+    .tekst {
+        font-size: 16px;
+        max-width: 90%;
+    }
+
+    .image {
+        max-width: 90vw;
+    }
+}
+
+/* Extra kleine schermen (schermbreedte kleiner dan 480px) */
+@media screen and (max-width: 480px) {
+    .logo {
+        width: 90vw;
+        margin-left: 5%;
+    }
+
+    .tekst {
+        font-size: 14px;
+    }
+
+    .image {
+        max-width: 95vw;
+    }
+}
