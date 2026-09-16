@@ -153,6 +153,8 @@ a {
     .tekst {
         font-size: 16px;
         max-width: 90%;
+        margin-top: -2%;
+        margin-bottom: 10%;
     }
 
     .image {
@@ -169,6 +171,7 @@ a {
 
     .tekst {
         font-size: 14px;
+        margin-top: -8%;
     }
 
     .image {
