@@ -107,7 +107,6 @@ a {
     margin-top: 5%;
 }
 
-/* Media Queries voor responsiviteit */
 
 /* Tablet (schermbreedte tussen 768px en 1024px) */
 @media screen and (max-width: 1024px) {
@@ -134,7 +133,6 @@ a {
         font-size: 18px;
         margin: -2% 0 6% 0;
         max-width: 80%;
-        text-align: center;
     }
 
     .image {
@@ -155,6 +153,7 @@ a {
         max-width: 90%;
         margin-top: -2%;
         margin-bottom: 10%;
+        text-align: center;
     }
 
     .image {
