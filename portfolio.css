@@ -46,7 +46,9 @@ table {border-collapse: collapse; border-spacing: 0;
 
 .koptekst {
     position: fixed;
-    font-family: "Anton", Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: "Anton"/*, Impact, Haettenschweiler, 'Arial Narrow Bold',*/ sans-serif;
+    font-weight: 400;
+    font-style: normal;
     font-size: 12.1vw;
     color: #ff0303;
     margin-top: -3%;
@@ -66,7 +68,9 @@ table {border-collapse: collapse; border-spacing: 0;
 }
 
 .tekst {
-    font-family: "Anton", Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: "Anton"/*, Impact, Haettenschweiler, 'Arial Narrow Bold',*/ sans-serif;
+    font-weight: 400;
+    font-style: normal;
     font-size: 20px;
     line-height: 32px;
     margin-left: 5%;
